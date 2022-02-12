@@ -1,10 +1,15 @@
 package fp.figuras.test;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+
 import fp.figuras.Circulo;
 import fp.figuras.CirculoImpl;
 import fp.figuras.Triangulo;
 import fp.figuras.TrianguloImpl;
 import fp.figuras.TrianguloImpl2;
+import fp.figuras.Monigote;
+import fp.figuras.MonigoteImpl;
 
 public class TestFiguras {
 
@@ -12,7 +17,7 @@ public class TestFiguras {
 		
 		//circulo es una interfaz
 		Circulo c1 = new CirculoImpl();
-		// TODO Auto-generated method stub
+		
 		c1.hacerVisible();
 		
 		Triangulo t2 = new TrianguloImpl();
@@ -21,9 +26,40 @@ public class TestFiguras {
 		Triangulo t1 = new TrianguloImpl2();
 		t1.hacerVisible();
 		
-		t2.moverHorizontalmenteDespacio(100);
+		/*t2.moverHorizontalmenteDespacio(100);
 		
-		t2.cambiarTamanyo(50, 10);
+		t2.cambiarTamanyo(50, 10);*/
+		
+		// Fecha actual
+		LocalDate fecha = LocalDate.now();
+		
+		// Hora actual
+		LocalTime hora = LocalTime.now();
+		
+		// Fecha descubrimiento de américa
+		LocalDate fechaDescubrimientoAmerica = LocalDate.of(1492,10,12);
+		
+		// Hora del medio día
+		LocalTime medioDia = LocalTime.of(12,00,0);
+		
+		// Objeto de un monigote
+		Monigote m1 = new MonigoteImpl();
+		m1.hacerVisible();
+		
+		// Cadena
+		String cadena = "Fundamentos de programación";
+		
+		// Número real
+		double numReal = 2.44;
+		
+		// Impresión por consola
+		System.out.println("La fecha del dia de hoy es: " + fecha);
+		System.out.println("La hora actual es: " + hora);
+		System.out.println("La fecha del descubrimiento de america es: " + fechaDescubrimientoAmerica);
+		System.out.println("La hora del medio dia es: " + medioDia);
+		System.out.println(numReal);
+		System.out.println(cadena);
+		
 
 
 	}
