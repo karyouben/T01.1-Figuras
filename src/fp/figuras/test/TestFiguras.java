@@ -72,6 +72,25 @@ public class TestFiguras {
 		
 		Character car = 'F';
 		System.out.println("Objeto caracter" + car);
+		
+		Integer a = 3;
+		Boolean b = a>2 && a<5;
+		System.out.println(b);
+		
+		Boolean b2 = a>2 || a<5;
+		System.out.println(b2);
+		
+		Integer n1=5;
+		Integer n2=2;
+		System.out.println(n1/n2); //Devuelve un entero aproximado por abajo
+		
+		      //Para que muestre los decimales siendo tipo entero
+		System.out.println(n1.doubleValue()/n2); 
+		System.out.println((double)n1/n2);
+		Double d2 = 2.0;
+		System.out.println(n1/d2);
+	
+		
 				
 		
 
