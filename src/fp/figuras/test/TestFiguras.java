@@ -26,9 +26,9 @@ public class TestFiguras {
 		Triangulo t1 = new TrianguloImpl2();
 		t1.hacerVisible();
 		
-		/*t2.moverHorizontalmenteDespacio(100);
+		t2.moverHorizontalmenteDespacio(100);
 		
-		t2.cambiarTamanyo(50, 10);*/
+		t2.cambiarTamanyo(50, 10);
 		
 		// Fecha actual
 		LocalDate fecha = LocalDate.now();
@@ -50,7 +50,7 @@ public class TestFiguras {
 		String cadena = "Fundamentos de programación";
 		
 		// Número real
-		double numReal = 2.44;
+		Double numReal = 2.44;
 		
 		// Impresión por consola
 		System.out.println("La fecha del dia de hoy es: " + fecha);
