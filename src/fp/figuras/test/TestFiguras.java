@@ -60,6 +60,20 @@ public class TestFiguras {
 		System.out.println(numReal);
 		System.out.println(cadena);
 		
+		//Apuntes de la clase del 15/02/2022
+		Float f1 = 2.44F; // Se puede con F o f
+		System.out.println("Objeto real2" + f1);
+		
+		Integer n = 5;
+		System.out.println("Objeto entero" + n);
+		
+		Long l = 5L; // Se puede con L o l
+		System.out.println("Objeto entero" + l);
+		
+		Character car = 'F';
+		System.out.println("Objeto caracter" + car);
+				
+		
 
 
 	}
